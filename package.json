@@ -1,0 +1,23 @@
+{
+  "name": "muskycoin-alpha",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/ryaningham2001/muskycoin-alpha.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ryaningham2001/muskycoin-alpha/issues"
+  },
+  "homepage": "https://gitlab.com/ryaningham2001/muskycoin-alpha#README",
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
