@@ -19,6 +19,7 @@
   },
   "homepage": "https://gitlab.com/ryaningham2001/muskycoin-alpha#README",
   "devDependencies": {
+    "jest": "^23.6.0",
     "nodemon": "^1.18.9"
   },
   "dependencies": {
