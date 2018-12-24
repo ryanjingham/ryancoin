@@ -8,7 +8,7 @@ class Block {
         this.lastHash = lastHash;
         this.hash = hash;
         this.data = data;
-    } 
+    }   
     
     toString() {
         return `Block -
