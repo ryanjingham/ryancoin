@@ -27,10 +27,16 @@ describe('Blockchain', () => {
         expect(bc.isValidChain(bc2.chain)).toBe(true);
     });
 
-    it('invalidates a chain with a corrupt block'), () => {
-        bc2.chain[0].data = 'bad data';
+    it('invalidates a chain with a corrupt genesis block', () => {
+        bc2.chain[0].data = 'Bad data';
 
         expect(bc.isValidChain(bc2.chain)).toBe(false);
-    };
+    });
 
+    it('invalidates a corrupt chain', () => {
+        bc2.addBlock('yoted');
+        bc2.chain[1].data = 'not yoted';
+
+        expect(bc.isValidChain(bc2.chain)).toBe(false);
+    });
 });
