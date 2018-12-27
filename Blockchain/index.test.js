@@ -1,6 +1,6 @@
 /*jshint esversion: 6 */ 
 
-const Blockchain = require('./Blockchain');
+const Blockchain = require('./index');
 const Block = require('./Block');
 
 describe('Blockchain', () => {
