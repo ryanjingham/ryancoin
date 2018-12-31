@@ -1,10 +1,11 @@
 /*jshint esversion: 6 */ 
 
 
-const Block = require('./Block');
+const Blockchain = require('./blockchain');
 
+const bc = new Blockchain();
 
-const fooBlock = Block.mineBlock(Block.genesis(), 'foo');
+for (let i=0; i<10; i++) {
+    console.log(bc.addBlock(`yeet ${i}`));
+}
 
-
-console.log(fooBlock.toString());
