@@ -58,7 +58,6 @@ class Block {
         
         return difficulty;
     }
-
 }
 
 module.exports = Block;
