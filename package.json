@@ -9,6 +9,10 @@
     "start": "node ./app",
     "dev": "nodemon ./app"
   },
+  
+  "jest": {
+    "testEnvironment" : "node"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://gitlab.com/ryaningham2001/muskycoin-alpha.git"
