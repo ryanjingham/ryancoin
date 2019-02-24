@@ -15,15 +15,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/ryaningham2001/muskycoin-alpha.git"
+    "url": "git+https://github.com/ryaningham2001/muskycoin.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://gitlab.com/ryaningham2001/muskycoin-alpha/issues"
+    "url": "https://github.com/ryaningham2001/muskycoin/issues"
   },
-  "homepage": "https://gitlab.com/ryaningham2001/muskycoin-alpha#README",
+  "homepage": "https://github.com/ryaningham2001/muskycoin#README",
   "devDependencies": {
     "jest": "^23.6.0",
     "nodemon": "^1.18.9"
